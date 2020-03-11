@@ -147,6 +147,7 @@ spec:
         # Include this if you want to restrict the manifests considered by flux
         # to those under the following relative paths in the git repository
         # - --git-path=subdir1,subdir2
+        - --git-path=dev
         - --git-label=flux
         - --git-user=Flux
         - --git-email=flux+jeremypruitt@gmail.com
