@@ -8,6 +8,8 @@ metadata:
     flux.weave.works/tag.podinfod: semver:~1.4
   name: podinfo
   namespace: demo
+  labels:
+    fooName: demo
 spec:
   template:
     spec:
