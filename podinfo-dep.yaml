@@ -6,6 +6,7 @@ metadata:
   namespace: demo
   labels:
     app: podinfo
+    foo: bar
 spec:
   strategy:
     rollingUpdate:
